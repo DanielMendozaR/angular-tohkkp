@@ -39,13 +39,14 @@ export class PuenteComponent implements OnInit {
     var canvas = <HTMLCanvasElement> document.getElementById("canvas");
     var ctx = canvas.getContext("2d");
     var img = new Image();
-    img.src = "https://user-images.githubusercontent.com/263237/36633897-d3237f2e-19ad-11e8-960a-daaf5ca3088a.png";
+    //img.src = "https://user-images.githubusercontent.com/263237/36633897-d3237f2e-19ad-11e8-960a-daaf5ca3088a.png";
+    img.src = 'fondo.png'
     img.onload = function(){
       ctx.drawImage(img, 0, 0);
     }
   
     var myImage = new Image(100, 200);
-    myImage.src = 'picture.jpg';
+    myImage.src = 'fondo.png';
     console.log(myImage);
 
     this.capturePosition(canvasEl);
