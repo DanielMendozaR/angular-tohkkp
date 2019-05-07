@@ -1,0 +1,11 @@
+#canvas {
+  border: 1px 
+  solid #000;
+  }
+
+.position {
+  height: 30px;
+  background-color: rgb(158, 157, 157);
+  color: white;
+  user-select: none;
+}
